@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arduino </title>
+    <link rel="stylesheet" href="BootsTrap/bootstrap.min.css">
+    
+</head>
+<style>
+    .card-border:hover{
+        transform: scale(1.05);
+    }
+    .card-border{
+        border:solid 1px rgb(76, 101, 182);
+        border-radius: 20px;
+        overflow: hidden;
+        transition: all ease-out 0.2s;
+        box-shadow: 0 0 10px rgb(44, 153, 172),0 0 10px rgb(56, 82, 167);
+        cursor: pointer;
+    }
+    #footer{
+        background: url(Images/bg-04.png);
+        background-color: rgb(89, 153, 190);
+        background-size: 50px 50px;
+    }  
+</style>
+<body class="bg-light">
+    <!--NAVBAR-->
+    <nav class=" navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="/index.html">
+                <img src="Images/encabezado.png" alt="" width="150">
+            </a>
+            <button class="navbar-toggler"
+                type="button" 
+                data-toggle="collapse" 
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toogle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    
+                 
+                    <li class="nav-item px-3"><a class="nav-link" href="inf.html.html">Informacion</a></li>
+                    <li class="nav-item px-3"><a class="nav-link" href="index.html">Imagenes</a></li>
+                    <li class="nav-item px-3"><a class="nav-link" href="SobreNosotros.html">Integrantes</a></li>
+                    <li class="nav-item px-3"><a class="nav-link" href="objetivo.html">Objetivo</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--CAROUSEL-->
+    <div class="carousel slide overflow-hidden" id="mainSlider" data-ride="carousel" style="height:25rem;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="Images/arduino%202.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="Images/distancia2.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="Images/lcd.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--INFORMACION -->
+ <div class="row py-5">
+                <h1 class="text-center" style="font-family; color: coral"><strong>Sensor de temperatura del ambiente en las zonas alto andinas </strong></h1>
+                  <h4 class="text-center" style="font-family: cursive;" >El trabajo es un proyecto pensado para facilitar el estilo de vida en las zonas alto andinas del Perú en donde se producen temperaturas muy frías y un ambiente húmedo por eso se ideo este proyecto, en donde se mide la temperatura del ambiente y de la humedad este proyecto está compuesto por diferentes sensores y componentes como: <br>un sensor de temperatura, un sensor ultrasónico, un sensor de luz, un buzzer, una pantalla LCD, Arduino uno, protoboard, luces LED,<br>  
+Lo que hace el sensor de temperatura es que nos mide la temperatura del ambiente en donde nos indica en la pantalla LCD si la temperatura del ambiente está muy frio o cálido y así la persona puede prevenirse del frio o del calor 
+<br>Lo que hace el sensor ultrasónico es medir a cierta distancia si un objeto se está acercándose a la casa, si el objeto está muy acerca lo que hace es que el buzzer suena una advertencia 
+<br>Y también lo que hace el sensor de luz en si esta de noche se enciende las luces LED y si esta de día se apaga 
+<br>y así o de muchas más maneras podemos implementar proyectos de tecnología en las zonas alto andinas
+
+ </h4>
+            </div>
+    <!--Ofertas-->
+        <div class="container-sm p-5">
+            <div class="row py-5">
+                <h1 class="text-center"> <em> caracteristicas</em> </h1>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-3 d-none d-md-block">
+                    <img src="Images/arduino.png" alt="" class="w-100">
+                </div>
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col p-1">
+                            <!-- Card -->
+                            <div class="card bg-primary text-white">
+                                <div class="row g-0">
+                                  <div class="col-md-6">
+                                    <img src="Images/tem.jpg" alt="..." width="228px" height="228px">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="card-body">
+                                      <h5 class="card-title">SENSOR DE TEMPERATURA </h5>
+                                      <p class="card-text"><em>Los sensores de temperatura son componentes eléctricos y electrónicos que actúan como sensores que permiten medir la temperatura mediante señales eléctricas específicas. Dicha señal puede enviarse directamente la resistencia. </em></p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div><!-- Card -->
+                        </div>
+                        <div class="col p-1">
+                            <!-- Card -->
+                            <div class="card bg-success text-white">
+                                <div class="row g-0">
+                                  <div class="col-md-6">
+                                      <div class="card-body">
+                                        <h5 class="card-title">SENSOR ULTRASONICO </h5>
+                                        <p class="card-text"><em>Como sugiere el nombre, los sensores ultrasónicos miden la distancia mediante el uso de ondas ultrasónicas. Los sensores ultrasónicos miden la distancia a un objeto calculando el tiempo entre la transmisión y la recepción..</em></p>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <img src="Images/distancia2.jpg" class="w-100" alt="...">
+                                  </div>
+                                </div>
+                            </div><!-- Card -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col p-1">
+                            <!-- Card -->
+                            <div class="card bg-danger text-white">
+                                <div class="row g-0">
+                                  <div class="col-md-6">
+                                    <img src="Images/luz.jpg" class="w-100" alt="..."  width="228px" height="228px">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="card-body">
+                                      <h5 class="card-title">SENSOR DE LUZ  </h5>
+                                      <p class="card-text"><em>Un sensor de luz es un dispositivo que trasforma la energía de la luz en radiaciones electromagnéticas o en fotones y puede percibir la variación de la iluminación en determinado lugar. la más destacable de todas es que nos permite hacer un uso mucho más eficiente de la energía que utilizamos,  </em></p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div><!-- Card -->
+                        </div>
+                        <div class="col p-1">
+                            <!-- Card -->
+                            <div class="card bg-warning text-white">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                          <h5 class="card-title">ARDUINO</h5>
+                                          <p class="card-text">Arduino actúa como un microcontrolador, cuando descarga un programa de una computadora y funciona de manera independiente, puede controlar y manejar ciertos dispositivos y tomar decisiones basadas en el programa descargado e interactuar con el mundo físico a través de sensores.</p>
+                                        </div>
+                                      </div>
+                                  <div class="col-md-6">
+                                    <img src="Images/arduino.png" class="w-100" alt="..."  width="228px" height="228px">
+                                  </div>
+                                  
+                                </div>
+                            </div><!-- Card -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!--Seccion de Comentarios-->
+
+    
+    <!--Footer-->
+    <div id="footer" class="mt-5">
+        <div class="container w-50 pt-5">
+            <div class="row row-cols-md-2 justify-content-md-center">
+                <div class="col text-center">
+                    <a href="#">
+                        <button class="btn btn-lg rounded-pill btn-warning w-100 p-3 font-weight-bold">Servicio al Cliente</button>
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-md-center py-5">
+                <div class="col text-center font-weight-light"></div>
+                    <p>Si usted tiene alguna duda, queja o sugerencia, puede comunicarse directamente con nosotros pulsando en el botón de servicio al cliente,  todos los derechos son reservados y de encontrarnos alguna página que haya copiado nuestro código, será duramente sancionada con el cierre de esta misma. 
+                    </p>
+                    
+            </div>
+        </div>
+        <hr>
+        <div class="container py-3">
+            <h5 class="py-3">Síguenos en nuestras redes sociales:</h5>
+            <div class="container row py-3">
+                <div class="col-1 mx-auto">
+                    <a href="https://www.facebook.com/">
+                        <img src="Images/logoFB.svg" alt="" width="50">
+                    </a>
+                </div>
+                <div class="col-1 mx-auto">
+                    <a href="https://www.instagram.com/">
+                        <img src="Images/logoInst.png" alt="" width="50">
+                    </a>
+                </div>
+                <div class="col-1 mx-auto">
+                    <a href="https://www.tiktok.com/">
+                        <img src="Images/logoTikTok.png" alt="" width="50">
+                    </a>
+                </div>
+                <div class="col-1 mx-auto">
+                    <a href="https://twitter.com/">
+                        <img src="Images/logoTwiter.png" alt="" width="50">
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="BootsTrap/bootstrap.min.js"></script>
+    <script src="BootsTrap/popper.min.js"></script>
+</body>
+</html>
